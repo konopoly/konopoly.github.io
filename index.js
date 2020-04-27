@@ -2,7 +2,7 @@ const profileImgDiv = document.getElementsByClassName('title-bar__img')[0];
 
 //do stuff after phrase was entered
 const initiate = _ => {
-   alert('Konstantin loves Elizabeth, because Elizabeth is the coolest person ever!!!!');
+   alert('Daily Reminder: LENA YOU SUCK!!!!!');
 } 
 
 //show username and pw for login
@@ -15,7 +15,7 @@ const validate = _ => {
    phraseInputButton.innerHTML = 'Submit';
 
    phraseInputButton.addEventListener('click', () => {
-      if(phraseInput.value === 'Lam' || phraseInput.value === 'lam') {
+      if(phraseInput.value === 'cow' || phraseInput.value === 'Cow') {
          initiate();
       }
       
