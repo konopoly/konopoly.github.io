@@ -2,7 +2,7 @@ const profileImgDiv = document.getElementsByClassName('title-bar__img')[0];
 
 //do stuff after phrase was entered
 const initiate = _ => {
-   alert('Correct Phrase Entered, Initiating');
+   alert('Konstantin loves Elizabeth, because Elizabeth is the coolest person ever!!!!');
 } 
 
 //show username and pw for login
@@ -15,7 +15,7 @@ const validate = _ => {
    phraseInputButton.innerHTML = 'Submit';
 
    phraseInputButton.addEventListener('click', () => {
-      if(phraseInput.value === 'kharkov') {
+      if(phraseInput.value === 'Lam' || phraseInput.value === 'lam') {
          initiate();
       }
       
