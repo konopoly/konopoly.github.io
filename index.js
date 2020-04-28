@@ -1,8 +1,9 @@
 const profileImgDiv = document.getElementsByClassName('title-bar__img')[0];
+const resumeDownloadButton = document.getElementsByClassName('bio__resume-download')[0];
 
 //do stuff after phrase was entered
 const initiate = _ => {
-   alert('Daily Reminder: LENA YOU SUCK!!!!!');
+   alert('correct password');
 } 
 
 //show username and pw for login
@@ -15,7 +16,7 @@ const validate = _ => {
    phraseInputButton.innerHTML = 'Submit';
 
    phraseInputButton.addEventListener('click', () => {
-      if(phraseInput.value === 'cow' || phraseInput.value === 'Cow') {
+      if(phraseInput.value === 'kharkov') {
          initiate();
       }
       
@@ -37,4 +38,15 @@ const imgClickCounter = () => {
    }
 }
 
+const downloadResume = () => {
+   window.open('./assets/resume.pdf');
+}
+
+
+
+
+
+
+
+resumeDownloadButton.addEventListener('click', downloadResume)
 profileImgDiv.addEventListener('click', imgClickCounter())
