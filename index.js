@@ -42,11 +42,5 @@ const downloadResume = () => {
    window.open('./assets/resume.pdf');
 }
 
-
-
-
-
-
-
 resumeDownloadButton.addEventListener('click', downloadResume)
 profileImgDiv.addEventListener('click', imgClickCounter())

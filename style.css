@@ -34,3 +34,7 @@ img {
    list-style: none;
    flex-wrap: wrap;
 }
+
+.bio__resume-download {
+   padding: 5px;
+}
