@@ -1,1 +1,0 @@
-# konopoly.github.io
