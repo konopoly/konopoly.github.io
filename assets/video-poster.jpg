@@ -1,0 +1,3 @@
+PLACEHOLDER JPG — replace this file with a real poster image
+
+This is a textual placeholder file. Please replace `/public/assets/video-poster.jpg` with a real JPG export of a video frame (or a designed poster image). Once replaced, browsers that prefer JPG will load it; otherwise the SVG fallback at `/assets/video-poster.svg` will be used.
